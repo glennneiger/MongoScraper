@@ -1,0 +1,14 @@
+{{#each articles}}
+{{#if saved}}
+<h2>
+    {{title}}
+</h2>
+<p>
+    {{body}}
+</p>
+<button data-id={{id}}>
+    {{!-- assign the id to the save button and then save  --}}
+    Add note
+</button>
+{{/if}}
+{{/each}}
